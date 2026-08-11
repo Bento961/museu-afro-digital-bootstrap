@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Acervo Histórico - Museu Afro Digital</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="bg-light">
+
+    <div class="container-fluid p-0">
+        <header>
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark px-4 shadow">
+                <a class="navbar-brand font-weight-bold text-warning" href="index.html">MUSEU AFRO DIGITAL</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#menuAcervo">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="menuAcervo">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="sobre.html">Sobre a Legislação</a></li>
+                        <li class="nav-item active"><a class="nav-link" href="acervo.html">Acervo Histórico <span class="sr-only">(atual)</span></a></li>
+                        <li class="nav-item"><a class="nav-link" href="contato.html">Contato & Colabore</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+
+        <main class="container my-5">
+            <div class="bg-white p-4 p-md-5 rounded shadow-sm border">
+                <h1 class="text-dark font-weight-bold border-bottom pb-3 mb-4">Registros Históricos e Documentais</h1>
+                <p class="lead text-secondary">Consulte abaixo os itens catalogados do nosso acervo imaterial e registros preservados:</p>
+
+                <!-- TABELA DE CATALOGAÇÃO ESTILIZADA -->
+                <div class="table-responsive my-4">
+                    <table class="table table-striped table-hover border">
+                        <thead class="thead-dark">
+                            <tr>
+                                <th>Código</th>
+                                <th>Coleção / Item</th>
+                                <th>Tipologia</th>
+                                <th>Período</th>
+                                <th>Origem</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td class="font-weight-bold">AC-001</td>
+                                <td>Jornal O Clarim da Alvorada</td>
+                                <td>Imprensa Negra (Impresso)</td>
+                                <td>1924</td>
+                                <td>São Paulo - SP</td>
+                            </tr>
+                            <tr>
+                                <td class="font-weight-bold">AC-002</td>
+                                <td>Gravações de Samba de Roda do Recôncavo</td>
+                                <td>Áudio / Patrimônio Imaterial</td>
+                                <td>1950</td>
+                                <td>Bahia</td>
+                            </tr>
+                            <tr>
+                                <td class="font-weight-bold">AC-003</td>
+                                <td>Fotografias da Irmandade da Boa Morte</td>
+                                <td>Fotografia / Iconografia</td>
+                                <td>1968</td>
+                                <td>Cachoeira - BA</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+
+                <!-- DOCUMENTÁRIO OFICIAL IPHAN - SAMBA DE RODA DO RECÔNCAVO -->
+                <h3 class="font-weight-bold text-dark mt-5 mb-3">Documentário IPHAN: Samba de Roda do Recôncavo Baiano</h3>
+                <div class="embed-responsive embed-responsive-16by9 rounded shadow overflow-hidden bg-dark">
+                    <video class="embed-responsive-item" controls poster="https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?auto=format&fit=crop&w=1200&q=80">
+                        <source src="img/samba-de-roda.mp4" type="video/mp4">
+                        <source src="img/samba-de-roda.webm" type="video/webm">
+                        Seu navegador não suporta a exibição de vídeos em HTML5.
+                    </video>        
+                </div>
+            </div>
+        </main>
+
+        <footer class="bg-dark text-light text-center py-4 mt-5">
+            <p class="mb-0 font-weight-bold">Museu Afro Digital — Projeto Autoral de Desenvolvimento Web</p>
+        </footer>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

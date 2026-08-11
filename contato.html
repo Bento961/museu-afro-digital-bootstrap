@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato & Doação - Museu Afro Digital</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="bg-light">
+
+    <div class="container-fluid p-0">
+        <header>
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark px-4 shadow">
+                <a class="navbar-brand font-weight-bold text-warning" href="index.html">MUSEU AFRO DIGITAL</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#menuContato">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="menuContato">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="sobre.html">Sobre a Legislação</a></li>
+                        <li class="nav-item"><a class="nav-link" href="acervo.html">Acervo Histórico</a></li>
+                        <li class="nav-item active"><a class="nav-link" href="contato.html">Contato & Colabore <span class="sr-only">(atual)</span></a></li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+
+        <main class="container my-5">
+            <div class="row">
+                <div class="col-md-8 offset-md-2 bg-white p-4 p-md-5 rounded shadow-sm border">
+                    <h1 class="text-dark font-weight-bold border-bottom pb-3 mb-3">Colabore com o Acervo Digital</h1>
+                    <p class="text-secondary mb-4">Possui documentos, fotografias ou registros históricos? Envie sua mensagem para a nossa equipe de curadoria:</p>
+
+                    <form id="formContato" novalidate>
+                        <div class="form-group mb-3">
+                            <label for="nome" class="font-weight-bold">Nome Completo:</label>
+                            <input type="text" class="form-control form-control-lg" id="nome" placeholder="Digite seu nome completo" required>
+                        </div>
+
+                        <div class="form-group mb-3">
+                            <label for="email" class="font-weight-bold">E-mail de Contato:</label>
+                            <input type="email" class="form-control form-control-lg" id="email" placeholder="seuemail@dominio.com" required>
+                        </div>
+
+                        <div class="form-group mb-3">
+                            <label for="assunto" class="font-weight-bold">Assunto:</label>
+                            <select class="form-control form-control-lg" id="assunto" required>
+                                <option value="">Selecione uma opção...</option>
+                                <option value="doacao">Doação / Repatriamento Digital de Acervo</option>
+                                <option value="duvida">Dúvidas sobre a Lei 10.639/03</option>
+                                <option value="sugestao">Sugestão / Parceria Pedagógica</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group mb-4">
+                            <label for="mensagem" class="font-weight-bold">Mensagem:</label>
+                            <textarea class="form-control" id="mensagem" rows="5" placeholder="Descreva os detalhes da sua mensagem ou do documento histórico a ser digitalizado" required></textarea>
+                        </div>
+
+                        <button type="submit" class="btn btn-warning btn-block btn-lg font-weight-bold shadow-sm">Enviar Colaboração</button>
+                    </form>
+                </div>
+            </div>
+        </main>
+
+        <footer class="bg-dark text-light text-center py-4 mt-5">
+            <p class="mb-0 font-weight-bold">Museu Afro Digital — Projeto Autoral de Desenvolvimento Web</p>
+        </footer>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="javascript/script.js"></script>
+</body>
+</html>
