@@ -30,6 +30,13 @@ Criar uma aplicação web autoral que materialize os conceitos de *"Repatriament
 - **Catalogação do Acervo:** Tabela estruturada com o inventário de itens históricos (Imprensa Negra, Samba de Roda, Irmandade da Boa Morte).
 - **Mídia Integrada:** Player de vídeo nativo exibindo o documentário oficial do IPHAN sobre o Samba de Roda do Recôncavo Baiano.
 - **Formulário de Colaboração:** Validação em tempo real via JavaScript para envio de sugestões e doação digital de acervos.
+---
+
+## 📸 Acervo Audiovisual Autoral
+
+Todo o material iconográfico e audiovisual exibido na galeria do site (fotos e vídeos) consiste em **registros autorais de campo**, capturados no Centro Histórico de Salvador e nos museus da Bahia. 
+
+A inclusão destas mídias autorais no projeto objetiva materializar na prática as diretrizes de **preservação do patrimônio imaterial**, **catalogação digital** e **resgate da memória afro-brasileira** discutidas na disciplina.
 
 ---
 
@@ -49,7 +56,7 @@ museu-afro-digital-bootstrap/
 │
 ├── index.html            # Página Inicial (Navbar, Carousel, Cards de Destaque, Footer)
 ├── sobre.html            # Contextualização (Lei nº 10.639/03, Artigo Sansone e Museu UFBA)
-├── acervo.html           # Galeria do acervo histórico e Documentário IPHAN
+├── acervo.html           # Galeria de mídias do acervo autoral e registro em vídeo
 ├── contato.html          # Formulário de colaboração e doação digital com validação JS
 │
 ├── css/
@@ -63,8 +70,20 @@ museu-afro-digital-bootstrap/
 │   ├── jquery.js         # Biblioteca jQuery
 │   └── script.js         # Temporização do carrossel e validação de formulário
 │
-├── img/                  # Imagens do acervo e vídeo do IPHAN
-│   └── samba-de-roda.mp4 # Documentário IPHAN
+├── img/               # Registros fotográficos e vídeo do acervo
+│   ├── pelourinho-rua.jpg
+│   ├── pelourinho-rua_01.jpg
+│   ├── elevador-lacerda.jpg
+│   ├── elevador-lacerda_01.jpg
+│   ├── terreiro-cruzeiro.jpg
+│   ├── terreiro-cruzeiro_01.jpg
+│   ├── tambores-teto.jpg
+│   ├── percussao-psirico.jpg
+│   ├── escultura-mural.jpg
+│   ├── bonecos-carnaval.jpg
+│   ├── paineis-tropilhas.jpg
+│   ├── fantasia-mascarado.jpg
+│   └── percussao-rua.mp4   # Registro audiovisual autoral: Ensaio no Pelourinho
 │
 ├── sitemap.xml           # Estrutura XML para indexação SEO
 └── README.md             # Documentação técnica do repositório
