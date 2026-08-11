@@ -2,6 +2,8 @@
 
 Este projeto consiste no desenvolvimento de um site responsivo, elegante e acessível, focado na preservação, valorização e divulgação da história e cultura afro-brasileira. O trabalho foi desenvolvido como projeto autoral para avaliação da disciplina de Desenvolvimento Web.
 
+🌐 **Acesse o site publicado:** [https://bento961.github.io/museu-afro-digital-bootstrap/](https://bento961.github.io/museu-afro-digital-bootstrap/)
+
 🔗 **Acesse o repositório:** [github.com/Bento961/museu-afro-digital-bootstrap](https://github.com/Bento961/museu-afro-digital-bootstrap)
 
 ---
